@@ -42,7 +42,8 @@
 
         <EditText android:id="@+id/subject"
             android:textAppearance="?android:attr/textAppearanceMediumInverse"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:capitalize="sentences"
@@ -70,7 +71,7 @@
             android:visibility="gone"
             android:fadingEdge="none"
             android:layout_marginBottom="1dip"
-            android:cacheColorHint="@android:color/white"
+            android:cacheColorHint="@android:color/black"
             android:scrollbarAlwaysDrawVerticalTrack="false"
             android:scrollbarStyle="insideOverlay"
             android:paddingBottom="@dimen/input_text_height_adjusted"
@@ -116,7 +117,7 @@
             </ScrollView>
 
             <!-- Divider -->
-            <View android:background="#eeeeee"
+            <View android:background="#e0e0e0"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
@@ -125,10 +126,10 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#fff" >
+                android:background="@android:color/black" >
 
                 <EditText
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:id="@+id/embedded_text_editor"
                     android:layout_width="0dip"
                     android:layout_gravity="bottom"
@@ -158,7 +159,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|bottom"
-                        android:textColor="#cc333333"
+                        android:textColor="#cce0e0e0"
                         android:textSize="12sp"
                         android:textStyle="bold"
                         android:paddingLeft="3dip"

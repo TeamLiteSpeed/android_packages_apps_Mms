@@ -29,7 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:orientation="vertical" >
+        android:orientation="vertical" 
+        android:background="@android:color/black">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -61,7 +62,7 @@
                     android:paddingTop="@dimen/message_item_text_padding_top"
                     android:gravity="right"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#ff000000"
+                    android:textColor="#ffffffff"
                     android:textSize="16sp"
                     android:visibility="gone"/>
                 <TextView android:id="@+id/text_view"
@@ -74,7 +75,7 @@
                     android:linksClickable="false"
                     android:gravity="right"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#ff000000"
+                    android:textColor="#ffffffff"
                     android:textSize="16sp" />
 
                 <LinearLayout
